@@ -1,0 +1,21 @@
+.container {
+  padding: 100px 0;
+  width: 1280px;
+  min-height: 780px;
+}
+
+.title {
+  @apply font-semibold;
+  letter-spacing: 3px;
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+.desc{
+  color: #606060;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+}
+
+.content {
+  margin-top: 32px;
+}

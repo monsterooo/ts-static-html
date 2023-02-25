@@ -1,0 +1,107 @@
+.taberContainer {
+ width:'100%';
+}
+
+.taber {
+  @apply flex justify-items-start relative;
+  border-bottom: 2px solid rgba(232, 232, 232, 1);
+  margin-bottom: -1px;
+
+}
+.tabItemChecked{
+  color: rgba(0, 155, 255, 1);
+}
+
+.tabItem {
+  @apply box-border inline-block relative cursor-pointer font-medium;
+  width:124px;
+  height: 40px;
+  line-height: 40px;
+  list-style: none;
+  font-size: 14px;
+  color:#606060,
+}
+.tabItemNotChecked{
+  color:#606060,
+}
+
+.tabItemChecked{
+  @apply font-semibold;
+  color:#1bc1dc,
+}
+
+.tabBar {
+   @apply absolute z-10;
+    width: 124px;
+    padding:0 20px;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    background-color: #1bc1dc;
+    transition: transform .3s cubic-bezier(.645,.045,.355,1);
+    list-style: none;
+}
+
+.desc{
+   @apply font-normal;
+    font-size: 16px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    color: #606060;
+    line-height: 28px;
+}
+.content{
+  height: auto;
+
+}
+.contentBox{
+  @apply flex gap-8;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.handleBox{
+  position: relative;
+  flex:1;
+  height: 338px;
+  border-radius: 6px;
+  padding: 50px 32px;
+  border: 1px solid #e0e4ea;
+  background-color: #f7f9fc;
+  transition: .2s ease-in-out;
+}
+.imgBox{
+  width: 100px;
+  height: 100px;
+}
+
+.contentTitle{    
+  font-size: 22px;
+  margin: 23px 0 19px;
+}
+.description{
+  font-size: 16px;
+    font-family: PingFangSC-Regular,PingFang SC;
+    font-weight: 400;
+    color: #606060;
+    line-height: 28px;
+    margin-top: 15px;
+}
+.point{
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 15px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e5eefc;
+}
+.text{
+  flex: 1;
+  text-align: justify;
+  color: #606060;
+  font-size: 14px;
+  line-height: 22px;
+}

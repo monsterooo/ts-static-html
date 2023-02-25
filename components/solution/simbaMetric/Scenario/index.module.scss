@@ -1,0 +1,126 @@
+.section{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 70px;
+    background: url('https://startdt.com/_nuxt/img/changjing.ed3faf7.png') no-repeat 50%/100% 100%;
+}
+.el-tabs__header{
+  padding: 0;
+  position: relative;
+  margin: 0 0 15px;
+}
+
+.el-tabs__nav{
+  white-space: nowrap;
+  position: relative;
+  transition: transform .3s;
+  float: left;
+  z-index: 2;
+}
+
+.el-tabs__item{
+   width: 260px;
+    height: 68px;
+    display: flex;
+    padding: 0!important;
+    background: #303c55 rgba(7,180,212,.06);
+    border-radius: 2px;
+    margin-bottom: 32px;
+    & img{
+      width: 21px;
+      height: 10px;
+      position: absolute;
+      right: 10px;
+      margin-top: 28px;
+    }
+}
+
+.box-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 218px;
+  padding-left: 32px;
+  background: rgba(27,193,220,.2) 52%;
+}
+.box-right{
+  width: 42px;
+  height: 68px;
+  background: #07b4d4;
+  opacity: .3;
+ 
+}
+
+
+.title{
+  font-size: 20px;
+  font-family: PingFangSC-Semibold,PingFang SC;
+  font-weight: 600;
+  color: #fff;
+  line-height: 28px;
+}
+
+.name{
+  padding-top: 4px;
+    font-size: 12px;
+    font-family: PingFangSC-Light,PingFang SC;
+    font-weight: 300;
+    color: #fff;
+    line-height: 17px;
+    opacity: .6;
+}
+
+.is-active{
+  background: #303c55 linear-gradient(270deg,rgba(7,180,212,.4),rgba(7,180,212,.2));
+  border-bottom: 2px solid #07b4d4;
+}
+
+.el-tabs__content {
+  overflow: hidden;
+  position: relative;
+  & .inner_title{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 32px;
+  }
+}
+
+.el-tab-pane{
+  margin-left: 120px;
+  & .img-bg{
+    position: relative;
+    width: 900px;
+    height: 220px;
+  }
+}
+
+.desc{
+  font-size: 14px;
+    display: flex;
+    color: #fff;
+    margin-bottom: 8px;
+    text-align: justify;
+    opacity: .8;
+   & .point{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: rgba(27,193,220,.1);
+    & b{
+      display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #1bc1dc;
+    }
+   }
+}

@@ -1,0 +1,37 @@
+.container {
+  @apply flex justify-center;
+
+  height: 565px;
+  background-position: center 0;
+  background-size: 100% 100%;
+}
+
+.title {
+  @apply font-semibold;
+
+  padding-top: 228px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.desc {
+  // @apply whitespace-pre-line font-normal;
+
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 112px;
+  line-height: 32px;
+}
+
+.btn {
+  @apply inline-block text-center text-white;
+
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  background: #07b4d4;
+}

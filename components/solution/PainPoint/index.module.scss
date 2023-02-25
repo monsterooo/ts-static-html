@@ -1,0 +1,35 @@
+.container {
+  @apply flex justify-between;
+}
+
+.item-container {
+  @apply overflow-hidden bg-white;
+
+  width: 302px;
+  height: 255px;
+  box-shadow: 0 0 18px 0 rgb(0 0 0 / 8%);
+  border-radius: 5px;
+}
+
+.item-title {
+  @apply font-semibold text-white;
+
+  background: url(https://startdt.com/_nuxt/img/painPoint.381d3ef.png) center 0;
+  background-size: auto 100%;
+  height: 123px;
+  font-size: 25px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  line-height: 38px;
+  padding: 24px 0 0 40px;
+  letter-spacing: 2px;
+}
+
+.item-desc {
+  font-size: 20px;
+  width: 222px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #151515;
+  line-height: 30px;
+  margin: 24px 0 0 40px;
+}

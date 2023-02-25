@@ -1,0 +1,136 @@
+.group {
+  @apply flex;
+}
+
+.wrapper {
+  margin-bottom: 100px;
+}
+
+.content {
+  @apply relative;
+
+  padding: 0 60px;
+
+  :global {
+    .el-carousel__arrow {
+      border: none;
+      outline: 0;
+      padding: 0;
+      margin: 0;
+      height: 36px;
+      width: 36px;
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 50%;
+      background-color: rgba(31, 45, 61, 0.11);
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      transform: translateY(-50%);
+      text-align: center;
+      font-size: 12px;
+      visibility: hidden;
+
+      &--left {
+        left: -10px;
+
+        &_active {
+          visibility: visible;
+          left: 0px;
+        }
+      }
+
+      &--right {
+        right: -10px;
+
+        &_active {
+          visibility: visible;
+          right: 0px;
+        }
+      }
+    }
+  }
+}
+
+.swiper {
+  padding-bottom: 40px;
+
+  :global {
+    .swiper-pagination {
+      bottom: 10px;
+    }
+  }
+}
+
+.itemContainer {
+  @apply relative text-white;
+
+  height: 500px;
+  width: 256px;
+
+  &-bgMask {
+    @apply absolute inset-0;
+
+    background: linear-gradient(270deg, rgba(3, 33, 92, 0.4), rgba(3, 33, 92, 0.8));
+  }
+
+  &-img {
+    @apply absolute;
+
+    top: 174px;
+    left: 104px;
+  }
+
+  &-title {
+    @apply relative z-10;
+
+    font-size: 27px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #fff;
+    line-height: 495px;
+    text-align: center;
+  }
+
+  &-detail {
+    @apply absolute top-0 left-0 z-20 opacity-0;
+
+    opacity: 0;
+    width: 256px;
+    height: 500px;
+    background: rgba(24, 104, 238, 0.8);
+    box-shadow: 0 12px 24px 0 rgb(24 104 238 / 20%);
+    border-radius: 6px;
+    transition: all 0.2s;
+    overflow: hidden;
+
+    &_active {
+      @apply opacity-100;
+    }
+
+    &-title {
+      font-size: 27px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      margin-top: 125px;
+      text-align: center;
+    }
+
+    &-desc {
+      width: 214px;
+      font-size: 15px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      margin: 25px auto;
+    }
+
+    &-btn {
+      @apply absolute left-0 right-0 mx-auto inline-block flex cursor-pointer items-center justify-center;
+
+      width: 214px;
+      height: 40px;
+      border: 1px solid white;
+    }
+  }
+}

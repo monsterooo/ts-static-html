@@ -1,0 +1,58 @@
+.container {
+  @apply text-black ;
+  margin-top: 32px;
+}
+.card-box{
+  position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    &-active{
+      box-shadow: 0 0 18px 10px rgb(0 0 0 / 10%)
+    }
+}
+
+
+.coreCard{
+  @apply flex justify-start;
+}
+
+.img-box{
+  @apply w-full;
+  height: 170px;
+}
+.img-box img{
+  width: 100%;
+  height: 100%;
+}
+.desc-box{
+  padding: 32px 40px;
+    letter-spacing: 1px;
+}
+.title-box{
+  @apply flex justify-between items-center;
+  margin-bottom: 24px;
+}
+.core-title{
+  @apply font-bold;
+  font-size: 22px;
+  color: #151515;
+  line-height: 30px;
+}
+.core-desc{
+  color: #606060;
+    margin-bottom: 12px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: justify;
+}
+.text{
+  color: #606060;
+    margin-bottom: 12px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: justify;
+}

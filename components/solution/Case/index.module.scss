@@ -1,0 +1,95 @@
+.energy-content{
+
+  position: relative;
+  overflow: hidden;
+  margin-top: 32px;
+}
+
+.energy-content-over{
+  height: 640px;
+  overflow: hidden;
+}
+
+.energy-banner{
+  @apply flex justify-between text-white;
+  height: 640px;
+  padding: 144px 60px 0;
+  background-size: cover;
+}
+
+.introduce{
+
+  width: 520px;
+}
+
+.page{
+  width: 220px;
+  font-family: DINCondensed-Bold,DINCondensed;
+}
+.page img{
+  height: 40px;
+}
+
+.page-box{
+  padding-bottom: 12px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid hsla(0,0%,100%,.4);
+}
+
+.total{
+  color: hsla(0,0%,100%,.6);
+}
+
+.energy-list{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+}
+
+.title{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.itemActive{
+  width: 280px;
+  height: 140px;
+  margin-top: -40px;
+  background: url('https://startdt.com/_nuxt/img/list_active.60ec072.jpg') 50%/100% 100% no-repeat;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+  transition: all 20ms ease-in-out;
+  cursor: pointer;
+}
+.itemActive .item-type img{
+  height: 30px;
+  width: auto;
+
+}
+
+.item{
+  width: 280px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.item-type{
+  padding: 20px 32px;
+}
+.item-type img{
+  width: 52px;
+}
+
+.name{
+  font-weight: 600;
+  color: #151515;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.nameHover{
+  font-weight: 600;
+    color: #fff;
+    margin-top: 16px;
+    font-size: 20px;
+}

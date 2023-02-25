@@ -1,0 +1,102 @@
+---
+title: 'Java 开发手册'
+date: 2023-01-05T15:32:14Z
+lastmod: '2022-12-28'
+tags: ['标签', '中科创达', 'Jaa']
+draft: false
+summary: '《阿里巴巴Java开发手册》是首个对外公布的企业级Java开发手册，对整个业界都有重要的意义。
+我们结合中科创达的内部经验，参考《Clean Code》、《Effective Java》等重磅资料，增补了一些条目，也做了些精简'
+layout: PostSimple
+cover: 'https://www.debug8.com/statics/uploads/2020/05/12/1589253853418826.png'
+---
+
+## 1.概述
+
+《阿里巴巴 Java 开发手册》是首个对外公布的企业级 Java 开发手册，对整个业界都有重要的意义。
+我们结合中科创达的内部经验，参考《Clean Code》、《Effective Java》等重磅资料，增补了一些条目，也做了些精简。
+
+## 2.规范落地
+
+规则落地主要依靠代码格式模版与 Sonar 代码规则检查。
+其中 Sonar 规则不如人意的地方，我们进行了定制。
+
+- Eclipse/Intellij 格式模板
+- Sonar 规则修改示例
+
+## 3. 参考资料
+
+- 《Clean Code》
+- 《Effective Java 2nd》
+- 《SEI CERT Oracle Coding Standard for Java》(在线版)
+- Sonar Java Rules
+
+## 4. 规范说明
+
+### (一) 命名规约
+
+**Rule 1. 【强制】禁止拼音缩写，避免阅读者费劲猜测；尽量不用拼音，除非中国式业务词汇没有通用易懂的英文对应。**
+
+```angular2html
+禁止： DZ[打折] / getPFByName() [评分]
+
+尽量避免：Dazhe / DaZhePrice
+```
+
+**Rule 2. 【强制】禁止使用非标准的英文缩写**
+
+```
+反例： AbstractClass 缩写成 AbsClass；condition 缩写成 condi。
+```
+
+**Rule 3. 【强制】禁用其他编程语言风格的前缀和后缀**
+
+```angular2html
+在其它编程语言中使用的特殊前缀或后缀，如_name, name_, mName, i_name，在Java中都不建议使用。
+```
+
+**Rule 4. 【推荐】命名的好坏，在于其“模糊度”**
+
+1. 如果上下文很清晰，局部变量可以使用 list 这种简略命名， 否则应该使用 userList 这种更清晰的命名。
+2. 禁止 a1, a2, a3 这种带编号的没诚意的命名方式。
+3. 方法的参数名叫 bookList ，方法里的局部变量名叫 theBookList 也是很没诚意。
+4. 如果一个应用里同时存在 Account、AccountInfo、AccountData 类，或者一个类里同时有 getAccountInfo()、getAccountData(), save()、 store() 的函数，阅读者将非常困惑。
+5. callerId 与 calleeId， mydearfriendswitha 与 mydearfriendswithb 这种拼写极度接近，考验阅读者眼力的。
+
+**Rule 5. 【推荐】包名全部小写。点分隔符之间尽量只有一个英语单词，即使有多个单词也不使用下划线或大小写分隔**
+
+```text
+正例： com.thundersoft.javatool
+
+反例： com.thundersoft.java_tool, com.thundersoft.javaTool
+```
+
+**Rule 6. 【强制】类名与接口名使用 UpperCamelCase 风格，遵从驼峰形式**
+Tcp, Xml 等缩写也遵循驼峰形式，可约定例外如：DTO/ VO 等
+
+```text
+正例：UserId / XmlService / TcpUdpDeal / UserVO
+
+反例：UserID / XMLService / TCPUDPDeal / UserVo
+```
+
+**Rule 7. 【强制】方法名、参数名、成员变量、局部变量使用 lowerCamelCase 风格，遵从驼峰形式**
+
+```text
+正例： localValue / getHttpMessage();
+```
+
+**Rule 8. 【强制】常量命名全大写，单词间用下划线隔开。力求语义表达完整清楚，不要嫌名字长**
+
+```text
+正例： MAX_STOCK_COUNT
+
+反例： MAX_COUNT
+```
+
+例外：当一个 static final 字段不是一个真正常量，比如不是基本类型时，不需要使用大写命名。
+
+```Java
+private static final Logger logger = Logger.getLogger(MyClass.class);
+```
+
+例外：枚举常量推荐全大写，但如果历史原因未遵循也是允许的，所以我们修改了 Sonar 的规则

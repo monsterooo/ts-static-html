@@ -1,0 +1,113 @@
+---
+title: 'git 分支规范'
+date: 2022-12-28T15:32:14Z
+lastmod: '2022-12-28'
+tags: ['标签', '中科创达', 'git']
+draft: false
+summary: 'git是目前最流行得源代码管理工具。为规范开发，保持代码提交记录以及git分支结构清晰，方便后续维护，现规范git得相关操作'
+layout: PostSimple
+cover: 'https://img0.baidu.com/it/u=2778529542,554569658&fm=253&fmt=auto&app=138&f=JPEG?w=990&h=374'
+---
+
+## 分支命名
+
+#### Master 分支
+
+master 为主分支，也是用于部署生产环境的分支，确保 master 分支稳定性
+master 分支一般由 develop 以及 hotfix 分支合并，任何时间都不能直接修改代码
+
+#### develop 分支
+
+develop 为开发分支，始终保持最新完成以及 bug 修复后的代码
+一般开发的新功能时，feature 分支都是基于 develop 分支下创建的
+
+#### feature 分支
+
+开发新功能时，以 develop 为基础创建 feature 分支
+分支命名: feature/ 开头的为特性分支， 命名规则: feature/user_module、 feature/device_module
+
+#### release 分支 (测试环境)
+
+release 为预上线分支，发布提测阶段，会 release 分支代码为基准提测
+
+---
+
+**注: 当有一组 feature 开发完成，首先会合并到 develop 分支，进入提测时，会创建 release 分支。如果测试过程中若存在 bug 需要修复，则直接由开发者在 release 分支修复并提交。当测试完成之后，合并 release 分支到 master 和 develop 分支，此时 master 为最新代码，用作上线。**
+
+---
+
+#### hotfix 分支
+
+分支命名: hotfix/ 开头的为修复分支，它的命名规则与 feature 分支类似
+线上出现紧急问题时，需要及时修复，以 master 分支为基线，创建 hotfix 分支，修复完成后，需要合并到 master 分支和 develop 分支
+
+## 常见任务
+
+#### 增加新功能
+
+```bash
+(dev)$: git checkout -b feature/xxx            # 从dev建立特性分支
+(feature/xxx)$: blabla                         # 开发
+(feature/xxx)$: git add xxx
+(feature/xxx)$: git commit -m 'commit comment'
+(dev)$: git merge feature/xxx --no-ff          # 把特性分支合并到dev
+```
+
+#### 修复紧急 bug
+
+```bash
+(master)$: git checkout -b hotfix/xxx         # 从master建立hotfix分支
+(hotfix/xxx)$: blabla                         # 开发
+(hotfix/xxx)$: git add xxx
+(hotfix/xxx)$: git commit -m 'commit comment'
+(master)$: git merge hotfix/xxx --no-ff       # 把hotfix分支合并到master，并上线到生产环境
+(dev)$: git merge hotfix/xxx --no-ff          # 把hotfix分支合并到dev，同步代码
+```
+
+#### 测试环境 bug
+
+```bash
+(release)$: git merge dev --no-ff             # 把dev分支合并到release，然后在测试环境拉取并测试
+```
+
+#### 生产环境上线
+
+```bash
+(master)$: git merge release --no-ff       # 把release测试好的代码合并到master
+(master)$: git tag -a v0.1 -m '部署包版本名'  #给版本命名，打Tag
+```
+
+## 日志规范
+
+```
+<type>: <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+- type: 本次 commit 的类型，诸如 bugfix docs style 等
+- scope: 本次 commit 波及的范围
+- subject: 简明扼要的阐述下本次 commit 的主旨，在原文中特意强调了几点 1. 使用祈使句，是不是很熟悉又陌生的一个词，来传送门在此 祈使句 2. 首字母不要大写 3. 结尾无需添加标点
+- body: 同样使用祈使句，在主体内容中我们需要把本次 commit 详细的描述一下，比如此次变更的动机，如需换行，则使用 |
+- footer: 描述下与之关联的 issue 或 break change，详见案例
+
+#### Type 的类别说明:
+
+- feat: 添加新特性
+- fix: 修复 bug
+- docs: 仅仅修改了文档
+- style: 仅仅修改了空格、格式缩进、都好等等，不改变代码逻辑
+- refactor: 代码重构，没有加新功能或者修复 bug
+- perf: 增加代码进行性能测试
+- test: 增加测试用例
+- chore: 改变构建流程、或者增加依赖库、工具等
+
+#### Commit messages 格式要求
+
+- 标题行：50 个字符以内，描述主要变更内容
+- 主体内容：更详细的说明文本，建议 72 个字符以内。 需要描述的信息包括:
+- 为什么这个变更是必须的? 它可能是用来修复一个 bug，增加一个 feature，提升性能、可靠性、稳定性等等
+- 他如何解决这个问题? 具体描述解决问题的步骤是否存在副作用、风险?
+- 如果需要的化可以添加一个链接到 issue 地址或者其它文档
