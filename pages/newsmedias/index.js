@@ -243,9 +243,7 @@ function Newsmedias() {
             <a href="/newsmedias/极推科技走进高校与交大联合促进金融人才培养">
               <div className="media">
                 <div className="media-body">
-                  <h4 className="media-heading">
-                    极推科技走进高校，与交大联合促进金融人才培养
-                  </h4>
+                  <h4 className="media-heading">极推科技走进高校，与交大联合促进金融人才培养</h4>
                   <div className="clearfix">
                     <h6 className="date">May 20, 2022</h6>
                     <h6 className="source">网易新闻</h6>
@@ -454,9 +452,7 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">
-                    极推科技CTO陈东应邀参加QCon全球软件开发者大会
-                  </h4>
+                  <h4 className="media-heading">极推科技CTO陈东应邀参加QCon全球软件开发者大会</h4>
                   <div className="clearfix">
                     <h6 className="date">Oct. 27, 2021</h6>
                     <h6 className="source"></h6>
@@ -650,9 +646,7 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">
-                    喜讯！极推科技荣获2022年中国人才管理创新典范奖
-                  </h4>
+                  <h4 className="media-heading">喜讯！极推科技荣获2022年中国人才管理创新典范奖</h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 30, 2023</h6>
                     <h6 className="source">搜狐网</h6>
@@ -926,9 +920,7 @@ function Newsmedias() {
             <a href="/newsmedias/极推科技荣获2021北青财星榜金牌金融科技创新奖">
               <div className="media">
                 <div className="media-body">
-                  <h4 className="media-heading">
-                    极推科技荣获2021北青财星榜“金牌金融科技创新奖”
-                  </h4>
+                  <h4 className="media-heading">极推科技荣获2021北青财星榜“金牌金融科技创新奖”</h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 9, 2021</h6>
                     <h6 className="source">新浪财经</h6>

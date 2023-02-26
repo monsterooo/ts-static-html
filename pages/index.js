@@ -115,10 +115,7 @@ export default function Home({ posts }) {
                 </div>
               </a>
 
-              <a
-                className="item-content"
-                href="/newsmedias/连获两项发明专利极推科技再添创新硕果"
-              >
+              <a className="item-content" href="/newsmedias/连获两项发明专利极推科技再添创新硕果">
                 <div className="item-title">连获两项发明专利！极推科技再添创新硕果</div>
                 <div className="item-date">Feb. 14, 2023</div>
 
