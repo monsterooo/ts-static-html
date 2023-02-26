@@ -10,7 +10,7 @@ function Header() {
 
   useEffect(() => {
     setPathname(location.pathname)
-  }, [])
+  })
 
   return (
     <header className="container-fluid Header">
@@ -41,6 +41,16 @@ function Header() {
                     <li>
                       <a href="/fintech">小店邦</a>
                     </li> */}
+                  </ul>
+                </li>
+                <li className={cls('dropdown', { active: isActivity('/product') })}>
+                  <a className="dropdown-toggle">
+                    产品介绍<span className="caret"></span>
+                  </a>
+                  <ul className="dropdown-menu dropdown-menu-left">
+                    <li>
+                      <Link href="/product">公司产品</Link>
+                    </li>
                   </ul>
                 </li>
                 <li className={cls('dropdown', { active: isActivity('/about') })}>
