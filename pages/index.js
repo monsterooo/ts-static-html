@@ -103,65 +103,65 @@ export default function Home({ posts }) {
 
               <a
                 className="item-content show"
-                href="/newsmedias/科技赋能极推科技科技打造小微企业金融服务市场化长效机制"
+                href="/newsmedias/科技赋能极推科技打造小微企业金融服务市场化长效机制"
               >
                 <div className="item-title">
-                  科技赋能，极推科技科技打造小微企业金融服务市场化长效机制
+                  科技赋能，极推科技打造小微企业金融服务市场化长效机制
                 </div>
                 <div className="item-date">Feb. 14, 2023</div>
 
                 <div className="content">
-                  极推科技科技旗下还呗小微贷产品，面向小微企业主提供金融服务近140亿元，涉及超过40万小微用户。
+                  极推科技旗下还呗小微贷产品，面向小微企业主提供金融服务近140亿元，涉及超过40万小微用户。
                 </div>
               </a>
 
               <a
                 className="item-content"
-                href="/newsmedias/连获两项发明专利极推科技科技再添创新硕果"
+                href="/newsmedias/连获两项发明专利极推科技再添创新硕果"
               >
-                <div className="item-title">连获两项发明专利！极推科技科技再添创新硕果</div>
+                <div className="item-title">连获两项发明专利！极推科技再添创新硕果</div>
                 <div className="item-date">Feb. 14, 2023</div>
 
                 <div className="content">
-                  极推科技科技自主研发设计的《用于监控告警系统的全链路监控方法及装置》与《数据仓库内表格的血缘关系追溯的方法和装置》两项发明喜获国家知识产权局颁发的发明专利认证，极推科技科技连续两个月斩获专利认可，技术创新再添硕果！
+                  极推科技自主研发设计的《用于监控告警系统的全链路监控方法及装置》与《数据仓库内表格的血缘关系追溯的方法和装置》两项发明喜获国家知识产权局颁发的发明专利认证，极推科技连续两个月斩获专利认可，技术创新再添硕果！
                 </div>
               </a>
 
               <a
                 className="item-content"
-                href="/newsmedias/喜讯极推科技科技荣获2022年中国人才管理创新典范奖"
+                href="/newsmedias/喜讯极推科技荣获2022年中国人才管理创新典范奖"
               >
-                <div className="item-title">喜讯！极推科技科技荣获2022年中国人才管理创新典范奖</div>
+                <div className="item-title">喜讯！极推科技荣获2022年中国人才管理创新典范奖</div>
                 <div className="item-date">Jan. 30, 2023</div>
 
                 <div className="content">
-                  极推科技科技凭借突出的人才战略及人才培养体系，从多家参赛企业中脱颖而出，成功摘得“2022年中国人才管理创新典范奖”称号
+                  极推科技凭借突出的人才战略及人才培养体系，从多家参赛企业中脱颖而出，成功摘得“2022年中国人才管理创新典范奖”称号
                 </div>
               </a>
 
               <a
                 className="item-content"
-                href="/newsmedias/喜讯极推科技科技荣获2022年中国人才管理创新典范奖"
+                href="/newsmedias/喜讯极推科技荣获2022年中国人才管理创新典范奖"
               >
-                <div className="item-title">喜讯！极推科技科技荣获2022年中国人才管理创新典范奖</div>
+                <div className="item-title">喜讯！极推科技荣获2022年中国人才管理创新典范奖</div>
                 <div className="item-date">Jan. 30, 2023</div>
 
                 <div className="content">
-                  极推科技科技凭借突出的人才战略及人才培养体系，从多家参赛企业中脱颖而出，成功摘得“2022年中国人才管理创新典范奖”称号
+                  极推科技凭借突出的人才战略及人才培养体系，从多家参赛企业中脱颖而出，成功摘得“2022年中国人才管理创新典范奖”称号
                 </div>
               </a>
 
               <a
                 className="item-content"
-                href="/newsmedias/极推科技科技通过中国信通院devops先进级工具评估为数字化发展再添硕果"
+                href="/newsmedias/极推科技通过中国信通院devops先进级工具评估为数字化发展再添硕果"
               >
                 <div className="item-title">
-                  极推科技科技通过中国信通院DevOps先进级工具评估，为数字化发展再添硕果
+                  极推科技通过中国信通院DevOps先进级工具评估，为数字化发展再添硕果
                 </div>
                 <div className="item-date">Jan. 4, 2023</div>
 
                 <div className="content">
-                  极推科技科技经过数月精心准备，根据信通院的“可信云”研发运营（DevOps）解决方案的评估标准，分析产品能力与标准的匹配程度，积极准备测试用例，真实环境操作演示，参加信通院现场评测、补充材料解释说明、专家答辩等一系列环节，最终经过专家委员会的综合评定，极推科技科技自主研发的产研工具BetterCDS在应用开发域的测试中顺利通过可信云-研发运营（DevOps）解决方案先进级工具的评估。
+                  极推科技经过数月精心准备，根据信通院的“可信云”研发运营（DevOps）解决方案的评估标准，分析产品能力与标准的匹配程度，积极准备测试用例，真实环境操作演示，参加信通院现场评测、补充材料解释说明、专家答辩等一系列环节，最终经过专家委员会的综合评定，极推科技自主研发的产研工具BetterCDS在应用开发域的测试中顺利通过可信云-研发运营（DevOps）解决方案先进级工具的评估。
                 </div>
               </a>
 
@@ -223,7 +223,7 @@ export default function Home({ posts }) {
               <div className="text">
                 <p className="title">智能客服</p>
                 <p>
-                  运用极推科技科技积累多年的自然语言处理、知识图谱等技术，凭借在借贷及理财业务的多年实践经验，打造了人工智能驱动的定制化金融业务客服系统，24小时随时响应咨询，无缝衔接人工服务；
+                  运用极推科技积累多年的自然语言处理、知识图谱等技术，凭借在借贷及理财业务的多年实践经验，打造了人工智能驱动的定制化金融业务客服系统，24小时随时响应咨询，无缝衔接人工服务；
                 </p>
               </div>
             </div>

@@ -6,9 +6,9 @@ function Footer() {
       <div className="row content">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8">
+            <div className="col-sm-4">
               <div className="row">
-                <div className="col-sm-3">
+                {/* <div className="col-sm-3">
                   <h4>公司产品</h4>
                   <p className="hide-ifocusu">
                     <a href="/ifocusu">分众专享</a>
@@ -23,8 +23,8 @@ function Footer() {
                   <p>
                     <a href="/fintech">小店邦</a>
                   </p>
-                </div>
-                <div className="col-sm-3">
+                </div> */}
+                {/* <div className="col-sm-3">
                   <h4>关于我们</h4>
                   <p>
                     <Link href="/about">团队介绍</Link>
@@ -38,8 +38,8 @@ function Footer() {
                   <p>
                     <a href="https://shuhezhaopin.zhiye.com/campus">校园招聘</a>
                   </p>
-                </div>
-                <div className="col-sm-3">
+                </div> */}
+                {/* <div className="col-sm-3">
                   <a href="https://shuhezhaopin.zhiye.com/">
                     <h4>加入我们</h4>
                   </a>
@@ -49,7 +49,7 @@ function Footer() {
                   <p>
                     <a href="https://shuhezhaopin.zhiye.com/campus">校园招聘</a>
                   </p>
-                </div>
+                </div> */}
                 <div className="col-sm-3">
                   <h4>友情链接</h4>
                   <p>

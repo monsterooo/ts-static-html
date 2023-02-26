@@ -36,7 +36,7 @@ function Newsmedias() {
     <main className="news">
       <section className="P0">
         <img className="hidden-xs" src="/static/img/news/banner.png" alt="" />
-        <div className="hidden-xs banner-info">极推科技科技，就在身边</div>
+        <div className="hidden-xs banner-info">极推科技，就在身边</div>
       </section>
       <section className="P1 container">
         <ul className="tab row cleafix">
@@ -56,7 +56,7 @@ function Newsmedias() {
         </ul>
         <div className="tab-content">
           <div id="news" className="tab-pane fade active in">
-            <a href="/newsmedias/科技赋能极推科技科技打造小微企业金融服务市场化长效机制">
+            <a href="/newsmedias/科技赋能极推科技打造小微企业金融服务市场化长效机制">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -70,14 +70,14 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    科技赋能，极推科技科技打造小微企业金融服务市场化长效机制
+                    科技赋能，极推科技打造小微企业金融服务市场化长效机制
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Feb. 14, 2023</h6>
                     <h6 className="source">中新网</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技旗下还呗小微贷产品，面向小微企业主提供金融服务近140亿元，涉及超过40万小微用户。
+                    极推科技旗下还呗小微贷产品，面向小微企业主提供金融服务近140亿元，涉及超过40万小微用户。
                   </p>
                 </div>
               </div>
@@ -96,7 +96,7 @@ function Newsmedias() {
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/喜报-极推科技科技斩获第六届星斗奖年度数据驱动先锋企业行业创新企业奖">
+            <a href="/newsmedias/喜报-极推科技斩获第六届星斗奖年度数据驱动先锋企业行业创新企业奖">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -110,19 +110,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    喜报| 极推科技科技斩获第六届“星斗奖”年度数据驱动先锋企业——行业创新企业奖
+                    喜报| 极推科技斩获第六届“星斗奖”年度数据驱动先锋企业——行业创新企业奖
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 7, 2022</h6>
                     <h6 className="source">网易新闻</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技凭借其系统化的数据认知、精细化的数字经营、多场景的数字创新以及深入的数字化应用四个维度上的先进性从众多候选企业中脱颖而出，斩获神策2022年第六届“星斗奖”年度数据驱动先锋企业——行业创新企业奖。
+                    极推科技凭借其系统化的数据认知、精细化的数字经营、多场景的数字创新以及深入的数字化应用四个维度上的先进性从众多候选企业中脱颖而出，斩获神策2022年第六届“星斗奖”年度数据驱动先锋企业——行业创新企业奖。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技七周年数智赋能推动普惠金融守正创新">
+            <a href="/newsmedias/极推科技七周年数智赋能推动普惠金融守正创新">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -130,13 +130,13 @@ function Newsmedias() {
                     src="/static/img/news/999BA457-15F6-4584-82F6-171DF38F24FD-33565-000.width-800.png"
                     width="751"
                     height="4570"
-                    alt="极推科技科技七周年"
+                    alt="极推科技七周年"
                   />
                 </div>
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技七周年「数智赋能，推动普惠金融守正创新」
+                    极推科技七周年「数智赋能，推动普惠金融守正创新」
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Aug. 3, 2022</h6>
@@ -162,7 +162,7 @@ function Newsmedias() {
                   <h4 className="media-heading">「好借好还呗」品牌大事记</h4>
                   <div className="clearfix">
                     <h6 className="date">June 28, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
                     还呗一路走来初心不改——始终希望可以通过更好借更好还的好服务给广大用户提供资金支持，值此品牌理念升级之际让我们一起来回顾一下还呗的成长历程[加油]～
@@ -187,11 +187,11 @@ function Newsmedias() {
                   <h4 className="media-heading">政企再合作 共建反诈屏障</h4>
                   <div className="clearfix">
                     <h6 className="date">June 24, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技联合旗下中禾信融资担保（福建）有限公司携手福建省地方金融监督管理局、福建市地方金融监督管理局以及福建市鼓楼区金融工作办公室共同开展以“守住钱袋子
-                    护好幸福家”为主题的系列反诈宣传活动。未来极推科技科技将继续发挥了行业&amp;科技优势，全方位帮助用户筑牢反诈防线，有效守护大众的“钱袋子”
+                    极推科技联合旗下中禾信融资担保（福建）有限公司携手福建省地方金融监督管理局、福建市地方金融监督管理局以及福建市鼓楼区金融工作办公室共同开展以“守住钱袋子
+                    护好幸福家”为主题的系列反诈宣传活动。未来极推科技将继续发挥了行业&amp;科技优势，全方位帮助用户筑牢反诈防线，有效守护大众的“钱袋子”
                   </p>
                 </div>
               </div>
@@ -210,16 +210,16 @@ function Newsmedias() {
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技全面推进乡村振兴的数字样板">
+            <a href="/newsmedias/极推科技全面推进乡村振兴的数字样板">
               <div className="media">
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技，全面推进乡村振兴的数字样板</h4>
+                  <h4 className="media-heading">极推科技，全面推进乡村振兴的数字样板</h4>
                   <div className="clearfix">
                     <h6 className="date">June 14, 2022</h6>
                     <h6 className="source">网易新闻</h6>
                   </div>
                   <p className="intro">
-                    面对乡村振兴新形势、新要求,以极推科技科技为例的金融机构在不断加快探索脚步,立足自身科技实力,致力于打造出服务乡村振兴的新型数字金融业务。
+                    面对乡村振兴新形势、新要求,以极推科技为例的金融机构在不断加快探索脚步,立足自身科技实力,致力于打造出服务乡村振兴的新型数字金融业务。
                   </p>
                 </div>
               </div>
@@ -240,39 +240,39 @@ function Newsmedias() {
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技走进高校与交大联合促进金融人才培养">
+            <a href="/newsmedias/极推科技走进高校与交大联合促进金融人才培养">
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技走进高校，与交大联合促进金融人才培养
+                    极推科技走进高校，与交大联合促进金融人才培养
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">May 20, 2022</h6>
                     <h6 className="source">网易新闻</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技受邀参加上海交通大学2022年度《金融服务计算》实践课,通过项目+讲座+考核的形式,为交大计算机科学与工程系的研究生启动相关课题。与极推科技科技一同受邀参加该课题的还有摩根士丹利、上证所信息网络有限公司、联合金融、optiver和富国基金等业内顶尖机构。
+                    极推科技受邀参加上海交通大学2022年度《金融服务计算》实践课,通过项目+讲座+考核的形式,为交大计算机科学与工程系的研究生启动相关课题。与极推科技一同受邀参加该课题的还有摩根士丹利、上证所信息网络有限公司、联合金融、optiver和富国基金等业内顶尖机构。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技产学合作新典范让普惠金融照亮每一个时代新市民">
+            <a href="/newsmedias/极推科技产学合作新典范让普惠金融照亮每一个时代新市民">
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技产学合作新典范，让普惠金融照亮每一个时代“新市民”
+                    极推科技产学合作新典范，让普惠金融照亮每一个时代“新市民”
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">May 6, 2022</h6>
                     <h6 className="source">新浪网</h6>
                   </div>
                   <p className="intro">
-                    作为小微信贷行业先行者,极推科技科技始终践行“金融向善”、普惠金融,响应政策号召,将“新市民”等小微个体纳入普惠金融服务范围之内,提供便捷、灵活、有温度的金融服务。
+                    作为小微信贷行业先行者,极推科技始终践行“金融向善”、普惠金融,响应政策号召,将“新市民”等小微个体纳入普惠金融服务范围之内,提供便捷、灵活、有温度的金融服务。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技进交大-教学相长共进步">
+            <a href="/newsmedias/极推科技进交大-教学相长共进步">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -285,18 +285,18 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技进交大 教学相长共进步</h4>
+                  <h4 className="media-heading">极推科技进交大 教学相长共进步</h4>
                   <div className="clearfix">
                     <h6 className="date">April 25, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
-                    2022年极推科技科技受邀成为上海交通大学计算机科学与工程系实践课项目合作单位。极推科技科技CTO陈东、CRO陈曦与多位领域专家以客座导师身份深度参与，该项目课程深受交大校方和学生的双方好评。
+                    2022年极推科技受邀成为上海交通大学计算机科学与工程系实践课项目合作单位。极推科技CTO陈东、CRO陈曦与多位领域专家以客座导师身份深度参与，该项目课程深受交大校方和学生的双方好评。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/禾力守沪-极推科技科技在行动">
+            <a href="/newsmedias/禾力守沪-极推科技在行动">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -309,10 +309,10 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">【禾】力守“沪” ，极推科技科技在行动</h4>
+                  <h4 className="media-heading">【禾】力守“沪” ，极推科技在行动</h4>
                   <div className="clearfix">
                     <h6 className="date">April 22, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
                     面对严峻的复杂疫情形势，极推科技五师们关键时刻挺身而出。我们在社区里发光发热服务大众，将五师精神和专业技能充分运用在抗疫之中，将心中的美好化作实际行动，真正将服务的初心从工作延续到生活中！
@@ -320,7 +320,7 @@ function Newsmedias() {
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技2022年q1季刊">
+            <a href="/newsmedias/极推科技2022年q1季刊">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -333,12 +333,12 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技2022年Q1季刊</h4>
+                  <h4 className="media-heading">极推科技2022年Q1季刊</h4>
                   <div className="clearfix">
                     <h6 className="date">April 14, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
-                  <p className="intro">极推科技科技2022年Q1季刊</p>
+                  <p className="intro">极推科技2022年Q1季刊</p>
                 </div>
               </div>
             </a>
@@ -346,11 +346,11 @@ function Newsmedias() {
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技旗下还呗以“向上”力量服务新市民实现“向上”梦想
+                    极推科技旗下还呗以“向上”力量服务新市民实现“向上”梦想
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">March 2, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
                     3月2日，国务院新闻办公室就促进经济金融良性循环和高质量发展有关情况举行发布会，银保监会主席郭树清在发布会上透露，银保监会、人民银行将联合下发文件，文件主题思想即为做好“新市民”服务工作。
@@ -358,7 +358,7 @@ function Newsmedias() {
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技2021年esg报告暨年度总结">
+            <a href="/newsmedias/极推科技2021年esg报告暨年度总结">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -371,38 +371,38 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技2021年ESG报告暨年度总结</h4>
+                  <h4 className="media-heading">极推科技2021年ESG报告暨年度总结</h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 12, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
-                    回顾2021年，围绕「环境友好」、「回馈社会」和「公司治理」三方面，极推科技科技所做的工作和成绩。
+                    回顾2021年，围绕「环境友好」、「回馈社会」和「公司治理」三方面，极推科技所做的工作和成绩。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技荣登2021真榜-中国最具投资价值创新企业排行榜">
+            <a href="/newsmedias/极推科技荣登2021真榜-中国最具投资价值创新企业排行榜">
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技荣登「2021真榜-中国最具投资价值创新企业排行榜」
+                    极推科技荣登「2021真榜-中国最具投资价值创新企业排行榜」
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 15, 2021</h6>
                     <h6 className="source">财经网</h6>
                   </div>
                   <p className="intro">
-                    12月14日，铅笔道发布了「2021真榜-中国最具投资价值创新企业排行榜」。极推科技科技凭借在金融科技赛道所表现出来的技术优势和创新能力，从众多优秀企业中脱颖而出，荣登「2021最具投资价值企业榜单-科技赛道最具投资价值TOP30」。
+                    12月14日，铅笔道发布了「2021真榜-中国最具投资价值创新企业排行榜」。极推科技凭借在金融科技赛道所表现出来的技术优势和创新能力，从众多优秀企业中脱颖而出，荣登「2021最具投资价值企业榜单-科技赛道最具投资价值TOP30」。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技喜获投资时报2021年度卓越金融科技公司">
+            <a href="/newsmedias/极推科技喜获投资时报2021年度卓越金融科技公司">
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技喜获《投资时报》2021年度“卓越金融科技公司”
+                    极推科技喜获《投资时报》2021年度“卓越金融科技公司”
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 6, 2021</h6>
@@ -410,12 +410,12 @@ function Newsmedias() {
                   </div>
                   <p className="intro">
                     2021年12月1日，由标点财经研究院联合《投资时报》主办的“见未来
-                    2021第四届资本市场高峰论坛暨金禧奖年度颁奖盛典”隆重举行。在会上，“金禧奖”2021年度获奖名单也随之揭晓。经过激烈的竞争与遴选，极推科技科技凭借其在智能科技领域的强大实力及优质金融服务输出和创新能力，荣获“金禧奖”“2021卓越金融科技公司”。
+                    2021第四届资本市场高峰论坛暨金禧奖年度颁奖盛典”隆重举行。在会上，“金禧奖”2021年度获奖名单也随之揭晓。经过激烈的竞争与遴选，极推科技凭借其在智能科技领域的强大实力及优质金融服务输出和创新能力，荣获“金禧奖”“2021卓越金融科技公司”。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技让金融服务更有温度-还呗ip还小呗助力用户坚持向上价值观">
+            <a href="/newsmedias/极推科技让金融服务更有温度-还呗ip还小呗助力用户坚持向上价值观">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -429,19 +429,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技让金融服务更有温度 还呗IP“还小呗”助力用户坚持“向上”价值观
+                    极推科技让金融服务更有温度 还呗IP“还小呗”助力用户坚持“向上”价值观
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Nov. 16, 2021</h6>
                     <h6 className="source">北青网</h6>
                   </div>
                   <p className="intro">
-                    近日，还呗IP形象“还小呗”正式上线。据介绍，还小呗源于母公司极推科技科技主logo，蕴含着自身即带有金融标签和科技基因。作为一家坚持以用户为中心的消费信贷平台，还呗自身从诞生以来就秉持“亲近用户”理念，在满足用户金融服务需求的基础上，不断贴近用户，提供更灵活、更便捷、更高效的分期生活服务，而还小呗的形象也与还呗客服高效、贴心、精准的定位相匹配。
+                    近日，还呗IP形象“还小呗”正式上线。据介绍，还小呗源于母公司极推科技主logo，蕴含着自身即带有金融标签和科技基因。作为一家坚持以用户为中心的消费信贷平台，还呗自身从诞生以来就秉持“亲近用户”理念，在满足用户金融服务需求的基础上，不断贴近用户，提供更灵活、更便捷、更高效的分期生活服务，而还小呗的形象也与还呗客服高效、贴心、精准的定位相匹配。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技cto陈东应邀参加qcon全球软件开发者大会">
+            <a href="/newsmedias/极推科技cto陈东应邀参加qcon全球软件开发者大会">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -455,14 +455,14 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技CTO陈东应邀参加QCon全球软件开发者大会
+                    极推科技CTO陈东应邀参加QCon全球软件开发者大会
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Oct. 27, 2021</h6>
                     <h6 className="source"></h6>
                   </div>
                   <p className="intro">
-                    10月21日，QCon全球软件开发者大会在宝华万豪酒店举行，极推科技科技CTO陈东应邀参加本次大会，并以《研发效能的度量体系建设实践》为主题进行了分享。
+                    10月21日，QCon全球软件开发者大会在宝华万豪酒店举行，极推科技CTO陈东应邀参加本次大会，并以《研发效能的度量体系建设实践》为主题进行了分享。
                   </p>
                 </div>
               </div>
@@ -486,12 +486,12 @@ function Newsmedias() {
                     <h6 className="source"></h6>
                   </div>
                   <p className="intro">
-                    践行数字化转型战略，需始终不渝的坚持以专业为发展基石，保持开放的心态，从全行业学习最佳实践。在这一初心的引领下，极推科技科技技术中心从团队搭建、人员培养和开放交流等方面多方求索，践行企业价值观，推助极推科技科技技术实力再上一个台阶。
+                    践行数字化转型战略，需始终不渝的坚持以专业为发展基石，保持开放的心态，从全行业学习最佳实践。在这一初心的引领下，极推科技技术中心从团队搭建、人员培养和开放交流等方面多方求索，践行企业价值观，推助极推科技技术实力再上一个台阶。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技品牌升级斩获国际性奖项肯定">
+            <a href="/newsmedias/极推科技品牌升级斩获国际性奖项肯定">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -504,27 +504,27 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技品牌升级斩获国际性奖项肯定</h4>
+                  <h4 className="media-heading">极推科技品牌升级斩获国际性奖项肯定</h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 14, 2021</h6>
                     <h6 className="source"></h6>
                   </div>
                   <p className="intro">
                     2021年1月14日，全球性品牌盛典2020Transform
-                    Awards颁奖典礼在线上成功举办，极推科技科技在Best Rebrand Of A Digital
+                    Awards颁奖典礼在线上成功举办，极推科技在Best Rebrand Of A Digital
                     Property（最佳品牌重塑）评选中斩获银奖
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技被认定为国家级高新技术企业">
+            <a href="/newsmedias/极推科技被认定为国家级高新技术企业">
               <div className="media">
                 <div className="media-left">
                   <img alt="高企.png" src="/static/img/news/xJvVRR4w_EQ25.png" />
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技被认定为国家级高新技术企业！</h4>
+                  <h4 className="media-heading">极推科技被认定为国家级高新技术企业！</h4>
                   <div className="clearfix">
                     <h6 className="date">April 3, 2019</h6>
                     <h6 className="source"></h6>
@@ -542,13 +542,13 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技完成3000万美元B轮融资 新浪投资</h4>
+                  <h4 className="media-heading">极推科技完成3000万美元B轮融资 新浪投资</h4>
                   <div className="clearfix">
                     <h6 className="date">Feb. 28, 2019</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
-                    国内领先的金融科技公司极推科技科技近日宣布完成B轮融资，融资金额3000万美元，国内互联网巨头新浪为该轮融资的投资方。
+                    国内领先的金融科技公司极推科技近日宣布完成B轮融资，融资金额3000万美元，国内互联网巨头新浪为该轮融资的投资方。
                   </p>
                 </div>
               </div>
@@ -613,7 +613,7 @@ function Newsmedias() {
             </a>
           </div>
           <div id="profession" className="tab-pane fade">
-            <a href="/newsmedias/连获两项发明专利极推科技科技再添创新硕果">
+            <a href="/newsmedias/连获两项发明专利极推科技再添创新硕果">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -626,18 +626,18 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">连获两项发明专利！极推科技科技再添创新硕果</h4>
+                  <h4 className="media-heading">连获两项发明专利！极推科技再添创新硕果</h4>
                   <div className="clearfix">
                     <h6 className="date">Feb. 14, 2023</h6>
                     <h6 className="source">凤凰网</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技自主研发设计的《用于监控告警系统的全链路监控方法及装置》与《数据仓库内表格的血缘关系追溯的方法和装置》两项发明喜获国家知识产权局颁发的发明专利认证，极推科技科技连续两个月斩获专利认可，技术创新再添硕果！
+                    极推科技自主研发设计的《用于监控告警系统的全链路监控方法及装置》与《数据仓库内表格的血缘关系追溯的方法和装置》两项发明喜获国家知识产权局颁发的发明专利认证，极推科技连续两个月斩获专利认可，技术创新再添硕果！
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/喜讯极推科技科技荣获2022年中国人才管理创新典范奖">
+            <a href="/newsmedias/喜讯极推科技荣获2022年中国人才管理创新典范奖">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -651,33 +651,33 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    喜讯！极推科技科技荣获2022年中国人才管理创新典范奖
+                    喜讯！极推科技荣获2022年中国人才管理创新典范奖
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 30, 2023</h6>
                     <h6 className="source">搜狐网</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技凭借突出的人才战略及人才培养体系，从多家参赛企业中脱颖而出，成功摘得“2022年中国人才管理创新典范奖”称号
+                    极推科技凭借突出的人才战略及人才培养体系，从多家参赛企业中脱颖而出，成功摘得“2022年中国人才管理创新典范奖”称号
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技斩获2022国际科创节金融数字创新奖">
+            <a href="/newsmedias/极推科技斩获2022国际科创节金融数字创新奖">
               <div className="media">
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技斩获2022国际科创节“金融数字创新奖”</h4>
+                  <h4 className="media-heading">极推科技斩获2022国际科创节“金融数字创新奖”</h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 4, 2023</h6>
                     <h6 className="source">搜狐网</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技凭借出色的数字化创新实践，斩获“2022年度金融数字创新奖”
+                    极推科技凭借出色的数字化创新实践，斩获“2022年度金融数字创新奖”
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技通过中国信通院devops先进级工具评估为数字化发展再添硕果">
+            <a href="/newsmedias/极推科技通过中国信通院devops先进级工具评估为数字化发展再添硕果">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -691,19 +691,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技通过中国信通院DevOps先进级工具评估，为数字化发展再添硕果
+                    极推科技通过中国信通院DevOps先进级工具评估，为数字化发展再添硕果
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 4, 2023</h6>
                     <h6 className="source">新浪网</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技经过数月精心准备，根据信通院的“可信云”研发运营（DevOps）解决方案的评估标准，分析产品能力与标准的匹配程度，积极准备测试用例，真实环境操作演示，参加信通院现场评测、补充材料解释说明、专家答辩等一系列环节，最终经过专家委员会的综合评定，极推科技科技自主研发的产研工具BetterCDS在应用开发域的测试中顺利通过可信云-研发运营（DevOps）解决方案先进级工具的评估。
+                    极推科技经过数月精心准备，根据信通院的“可信云”研发运营（DevOps）解决方案的评估标准，分析产品能力与标准的匹配程度，积极准备测试用例，真实环境操作演示，参加信通院现场评测、补充材料解释说明、专家答辩等一系列环节，最终经过专家委员会的综合评定，极推科技自主研发的产研工具BetterCDS在应用开发域的测试中顺利通过可信云-研发运营（DevOps）解决方案先进级工具的评估。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技实力再获认可获投资时报金禧奖双项大奖">
+            <a href="/newsmedias/极推科技实力再获认可获投资时报金禧奖双项大奖">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -717,36 +717,36 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技实力再获认可！获《投资时报》金禧奖双项大奖
+                    极推科技实力再获认可！获《投资时报》金禧奖双项大奖
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 23, 2022</h6>
                     <h6 className="source">搜狐网</h6>
                   </div>
                   <p className="intro">
-                    2022年12月22日，由标点财经研究院联合《投资时报》主办的“见未来•2022第五届资本市场高峰论坛暨金禧奖年度颁奖盛典”隆重召开，极推科技科技凭借自身的强劲创新实力和优质金融服务能力，获评“金禧奖·2022
+                    2022年12月22日，由标点财经研究院联合《投资时报》主办的“见未来•2022第五届资本市场高峰论坛暨金禧奖年度颁奖盛典”隆重召开，极推科技凭借自身的强劲创新实力和优质金融服务能力，获评“金禧奖·2022
                     卓越金融科技公司”和“金禧奖·2022 普惠金融奖”两项大奖。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技续签阿里云飞天生态合作伙伴-服务生态合作计划">
+            <a href="/newsmedias/极推科技续签阿里云飞天生态合作伙伴-服务生态合作计划">
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技续签阿里云飞天生态合作伙伴-服务生态合作计划
+                    极推科技续签阿里云飞天生态合作伙伴-服务生态合作计划
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 12, 2022</h6>
                     <h6 className="source">搜狐</h6>
                   </div>
                   <p className="intro">
-                    近日，极推科技科技再度被授予阿里云合作伙伴称号，并连续两年成功加入阿里云飞天生态合作伙伴-服务生态合作计划。
+                    近日，极推科技再度被授予阿里云合作伙伴称号，并连续两年成功加入阿里云飞天生态合作伙伴-服务生态合作计划。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/2022北青财星榜揭晓极推科技科技荣膺金牌金融科技创新奖">
+            <a href="/newsmedias/2022北青财星榜揭晓极推科技荣膺金牌金融科技创新奖">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -760,19 +760,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    2022北青财星榜揭晓,极推科技科技荣膺金牌金融科技创新奖
+                    2022北青财星榜揭晓,极推科技荣膺金牌金融科技创新奖
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 7, 2022</h6>
                     <h6 className="source">凤凰</h6>
                   </div>
                   <p className="intro">
-                    日前，已经连续举办15年的北青财星榜，公布了2022年度榜单，极推科技科技获评金牌金融科技创新奖，这也是极推科技科技连续第三年荣获殊荣。据悉，北青财星榜由北京市民和专家团队联合评选，至今已连续举办15年，覆盖银行、保险、金融科技、消费金融等主流金融行业，聚焦品牌、服务、社会责任、产品等多个维度,并在业内拥有良好的口碑和广泛的影响。
+                    日前，已经连续举办15年的北青财星榜，公布了2022年度榜单，极推科技获评金牌金融科技创新奖，这也是极推科技连续第三年荣获殊荣。据悉，北青财星榜由北京市民和专家团队联合评选，至今已连续举办15年，覆盖银行、保险、金融科技、消费金融等主流金融行业，聚焦品牌、服务、社会责任、产品等多个维度,并在业内拥有良好的口碑和广泛的影响。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/磐途海神系统发布会于上海隆重举办极推科技科技受邀出席">
+            <a href="/newsmedias/磐途海神系统发布会于上海隆重举办极推科技受邀出席">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -786,19 +786,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    磐途海神系统发布会于上海隆重举办，极推科技科技受邀出席
+                    磐途海神系统发布会于上海隆重举办，极推科技受邀出席
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 1, 2022</h6>
                     <h6 className="source">投资界</h6>
                   </div>
                   <p className="intro">
-                    近日，赋能酒旅生态业务创新的海神系统发布会，在上海阿纳迪酒店隆重举行，来自酒店商家、旅行社、MCN机构、垂类自媒体等的150余名行业伙伴齐聚一堂，共襄盛举。作为参与海神系统酒旅产业布局的金融科技企业，极推科技科技也受邀出席了本次发布会，与来自酒旅、互联网等相关行业的企业代表、顶级大咖、达人，共同见证磐途海神系统的发布，同时极推科技科技董事长隆军，出席并分享了极推科技科技为促进文旅行业发展作出的努力，以及表明了以金融科技助力整个产业链高质量发展的决心，获行业各界高度肯定。
+                    近日，赋能酒旅生态业务创新的海神系统发布会，在上海阿纳迪酒店隆重举行，来自酒店商家、旅行社、MCN机构、垂类自媒体等的150余名行业伙伴齐聚一堂，共襄盛举。作为参与海神系统酒旅产业布局的金融科技企业，极推科技也受邀出席了本次发布会，与来自酒旅、互联网等相关行业的企业代表、顶级大咖、达人，共同见证磐途海神系统的发布，同时极推科技董事长隆军，出席并分享了极推科技为促进文旅行业发展作出的努力，以及表明了以金融科技助力整个产业链高质量发展的决心，获行业各界高度肯定。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技成功加入大数据技术标准推进委员会彰显品牌硬核数字化实力">
+            <a href="/newsmedias/极推科技成功加入大数据技术标准推进委员会彰显品牌硬核数字化实力">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -812,7 +812,7 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技成功加入大数据技术标准推进委员会，彰显品牌硬核数字化实力
+                    极推科技成功加入大数据技术标准推进委员会，彰显品牌硬核数字化实力
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 1, 2022</h6>
@@ -820,12 +820,12 @@ function Newsmedias() {
                   </div>
                   <p className="intro">
                     近日，由中国信息通信研究院（以下简称“中国信通院”）、中国通信标准化协会指导，中国通信标准化协会大数据技术标准推进委员会（CCSA
-                    TC601）主办的“2022大数据产业峰会”在京成功举办，极推科技科技以首家金融科技企业的身份，参与到了关于DataOps在行业应用的讨论中。
+                    TC601）主办的“2022大数据产业峰会”在京成功举办，极推科技以首家金融科技企业的身份，参与到了关于DataOps在行业应用的讨论中。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/以金融之力助推经济发展极推科技科技喜获民营企业突出贡献奖">
+            <a href="/newsmedias/以金融之力助推经济发展极推科技喜获民营企业突出贡献奖">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -839,19 +839,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    以金融之力助推经济发展，极推科技科技喜获“民营企业突出贡献奖”
+                    以金融之力助推经济发展，极推科技喜获“民营企业突出贡献奖”
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Nov. 10, 2022</h6>
                     <h6 className="source">凤凰</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技荣获2021年度浦东新区“民营企业突出贡献奖”，也是极推科技科技连续第三年获得此项殊荣。
+                    极推科技荣获2021年度浦东新区“民营企业突出贡献奖”，也是极推科技连续第三年获得此项殊荣。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技斩获星斗奖">
+            <a href="/newsmedias/极推科技斩获星斗奖">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -864,7 +864,7 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技斩获“星斗奖”</h4>
+                  <h4 className="media-heading">极推科技斩获“星斗奖”</h4>
                   <div className="clearfix">
                     <h6 className="date">Oct. 28, 2022</h6>
                     <h6 className="source"></h6>
@@ -887,19 +887,19 @@ function Newsmedias() {
 
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技加入阿里云飞天生态合作伙伴-服务生态合作计划
+                    极推科技加入阿里云飞天生态合作伙伴-服务生态合作计划
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 20, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
-                    此次加入阿里云飞天生态合作伙伴-服务生态合作计划之后，极推科技科技将借助业内领先的技术基础设施，依托自身强大的技术迭代能力和创新优势，进一步推动旗下产品功能不断优化、服务再次提升。
+                    此次加入阿里云飞天生态合作伙伴-服务生态合作计划之后，极推科技将借助业内领先的技术基础设施，依托自身强大的技术迭代能力和创新优势，进一步推动旗下产品功能不断优化、服务再次提升。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技再次获得高新技术企业认定">
+            <a href="/newsmedias/极推科技再次获得高新技术企业认定">
               <div className="media">
                 <div className="media-left">
                   <img
@@ -912,29 +912,29 @@ function Newsmedias() {
                 </div>
 
                 <div className="media-body">
-                  <h4 className="media-heading">极推科技科技再次获得高新技术企业认定</h4>
+                  <h4 className="media-heading">极推科技再次获得高新技术企业认定</h4>
                   <div className="clearfix">
                     <h6 className="date">Jan. 1, 2022</h6>
-                    <h6 className="source">极推科技科技</h6>
+                    <h6 className="source">极推科技</h6>
                   </div>
                   <p className="intro">
-                    依托技术优势和创新能力，极推科技科技曾于2018年首次获得为期三年的高新技术企业认定。2021年经过相关机构新一轮的评估调研，极推科技科技各项指标完全符合认定标准，于近日成功通过了新一轮为期三年的“高新技术企业”认定。
+                    依托技术优势和创新能力，极推科技曾于2018年首次获得为期三年的高新技术企业认定。2021年经过相关机构新一轮的评估调研，极推科技各项指标完全符合认定标准，于近日成功通过了新一轮为期三年的“高新技术企业”认定。
                   </p>
                 </div>
               </div>
             </a>
-            <a href="/newsmedias/极推科技科技荣获2021北青财星榜金牌金融科技创新奖">
+            <a href="/newsmedias/极推科技荣获2021北青财星榜金牌金融科技创新奖">
               <div className="media">
                 <div className="media-body">
                   <h4 className="media-heading">
-                    极推科技科技荣获2021北青财星榜“金牌金融科技创新奖”
+                    极推科技荣获2021北青财星榜“金牌金融科技创新奖”
                   </h4>
                   <div className="clearfix">
                     <h6 className="date">Dec. 9, 2021</h6>
                     <h6 className="source">新浪财经</h6>
                   </div>
                   <p className="intro">
-                    近日,第14届北京青年报“财星榜”揭晓名单。极推科技科技凭借科技创新,不断推动行业数字化转型荣获2021年度“金牌金融科技创新奖”。
+                    近日,第14届北京青年报“财星榜”揭晓名单。极推科技凭借科技创新,不断推动行业数字化转型荣获2021年度“金牌金融科技创新奖”。
                   </p>
                 </div>
               </div>
@@ -980,7 +980,7 @@ function Newsmedias() {
                     <h6 className="source">北青金融</h6>
                   </div>
                   <p className="intro">
-                    作为以创新驱动高质量发展的金融科技排头兵，极推科技科技积极响应“惠企纾困”，旗下用户超1亿的助贷平台还呗用扎实的措施为“经济毛细血管”蓄能增势。通过高效便捷的金融科技服务保障个体户的正常运行，从而促进行业的稳健发展，更是为提升普惠金融的易得感，特推出“还呗小微贷”精准服务小微企业，以快速批复授信，为小微发展送上“及时雨”。
+                    作为以创新驱动高质量发展的金融科技排头兵，极推科技积极响应“惠企纾困”，旗下用户超1亿的助贷平台还呗用扎实的措施为“经济毛细血管”蓄能增势。通过高效便捷的金融科技服务保障个体户的正常运行，从而促进行业的稳健发展，更是为提升普惠金融的易得感，特推出“还呗小微贷”精准服务小微企业，以快速批复授信，为小微发展送上“及时雨”。
                   </p>
                 </div>
               </div>
@@ -994,7 +994,7 @@ function Newsmedias() {
                     <h6 className="source">北青金融</h6>
                   </div>
                   <p className="intro">
-                    助企纾困促发展，金融科技服务显担当，极推科技科技旗下助贷平台还呗帮助各行各业因短期资金短缺而被迫中断营生的小微企业主，为其提供更有针对性的小微企业专属信贷产品，让他们的生意再次“支棱”起来。
+                    助企纾困促发展，金融科技服务显担当，极推科技旗下助贷平台还呗帮助各行各业因短期资金短缺而被迫中断营生的小微企业主，为其提供更有针对性的小微企业专属信贷产品，让他们的生意再次“支棱”起来。
                   </p>
                 </div>
               </div>
@@ -1008,7 +1008,7 @@ function Newsmedias() {
                     <h6 className="source">北青金融</h6>
                   </div>
                   <p className="intro">
-                    极推科技科技积极响应“惠企贷款”政策，助力小微创业，点亮每一个小微梦想，旗下还呗信贷平台针对资金流动效率要求高的小微企业主，提供更有针对性的小微企业专属信贷产品，帮助他们的创业梦想破土发芽。
+                    极推科技积极响应“惠企贷款”政策，助力小微创业，点亮每一个小微梦想，旗下还呗信贷平台针对资金流动效率要求高的小微企业主，提供更有针对性的小微企业专属信贷产品，帮助他们的创业梦想破土发芽。
                   </p>
                 </div>
               </div>
@@ -1022,7 +1022,7 @@ function Newsmedias() {
                     <h6 className="source">北青金融</h6>
                   </div>
                   <p className="intro">
-                    疫情发生以来，那些没有资产抵押的小本生意由于资金周转困难而举步维艰。为了帮助他们维持运转，极推科技科技积极响应“惠企贷款”政策，旗下还呗信贷平台针对资金流动效率要求高的小微企业主，提供更有针对性的小微企业专属信贷产品，帮助他们度过难关。
+                    疫情发生以来，那些没有资产抵押的小本生意由于资金周转困难而举步维艰。为了帮助他们维持运转，极推科技积极响应“惠企贷款”政策，旗下还呗信贷平台针对资金流动效率要求高的小微企业主，提供更有针对性的小微企业专属信贷产品，帮助他们度过难关。
                   </p>
                 </div>
               </div>

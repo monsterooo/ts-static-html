@@ -32,10 +32,10 @@ function About() {
         </div>
         <div className="pos_re  container">
           <div className="pos_ab info">
-            <h2>极推科技科技</h2>
+            <h2>极推科技</h2>
 
             <p>
-              极推科技科技以大数据和技术为驱动，为金融机构提供高效的智能零售金融解决方案，服务银行、信托、消费金融公司、保险、小贷公司等持牌金融机构，业务涵盖消费信贷、小微企业信贷、场景分期等多个领域，提供营销获客、风险防控、运营管理等服务。极推科技科技通过自主开发的消费信贷产品，连接金融机构与普罗大众，赋能金融机构数字化转型，迎接中国消费升级的大潮。
+              极推科技以大数据和技术为驱动，为金融机构提供高效的智能零售金融解决方案，服务银行、信托、消费金融公司、保险、小贷公司等持牌金融机构，业务涵盖消费信贷、小微企业信贷、场景分期等多个领域，提供营销获客、风险防控、运营管理等服务。极推科技通过自主开发的消费信贷产品，连接金融机构与普罗大众，赋能金融机构数字化转型，迎接中国消费升级的大潮。
               <br />
             </p>
           </div>
@@ -51,16 +51,16 @@ function About() {
             </div>
             <div className="people">
               <p>
-                极推科技科技高管团队主要来自招商银行、美国第一资本银行等国内外零售金融领域的知名企业，在产品设计、风险管理、技术开
-                <br />
-                发、市场运营等方面经验丰富，理念先进，致力于将极推科技科技打造成让人人享有金融服务最优解的智能化金融服务平台。
+                极推科技科技高管团队主要来自阿里，百度，头条，Capital
+                One等国内外零售金融领域的知名企业，在产品设计、风险管理、技术开发、市场运营等方面经验丰富，
+                理念先进，致力于将极推科技科技打造成让人人享有金融服务最优解的智能化金融服务平台
               </p>
               <img src="/static/img/about/people.png" alt="" />
             </div>
           </div>
         </div>
       </section>
-      <section className="PB90 P40 container" id="story">
+      {/* <section className="PB90 P40 container" id="story">
         <div className="block-title">
           <span className="chinese">极推科技历史</span>
           <span className="english">HISTORY</span>
@@ -69,7 +69,7 @@ function About() {
           <div className="show">
             <p>2020/05</p>
             <div className="text">
-              <span>极推科技科技品牌升级</span>
+              <span>极推科技品牌升级</span>
             </div>
             <div className="img"></div>
             <div className="border"></div>
@@ -85,7 +85,7 @@ function About() {
           <div>
             <p>2019/04</p>
             <div className="text">
-              <span>极推科技科技获得高新技术企业认定</span>
+              <span>极推科技获得高新技术企业认定</span>
             </div>
             <div className="img"></div>
             <div className="border"></div>
@@ -150,14 +150,14 @@ function About() {
           <div>
             <p>2015/08</p>
             <div className="text">
-              <span>极推科技科技在上海浦东自贸区注册成立</span>
+              <span>极推科技在上海浦东自贸区注册成立</span>
             </div>
             <div className="img"></div>
             <div className="border"></div>
           </div>
         </div>
-      </section>
-      <section className="share P40 container" id="shareholder">
+      </section> */}
+      {/* <section className="share P40 container" id="shareholder">
         <div className="block-title">
           <span className="chinese">股东背景</span>
           <span className="english">SHAREHOLDER</span>
@@ -165,7 +165,7 @@ function About() {
         <div className="img PB96">
           <img alt="股东logo-0722" height="132" src="/static/img/about/gudong.png" width="1160" />
         </div>
-      </section>
+      </section> */}
       <section className="P40 container" id="partner">
         <div className="block-title">
           <span className="chinese">合作伙伴</span>
@@ -180,7 +180,7 @@ function About() {
           />
         </div>
       </section>
-      <section className="P40 certificate PB90 container" id="certificate">
+      {/* <section className="P40 certificate PB90 container" id="certificate">
         <div className="block-title">
           <span className="chinese">资质证书</span>
           <span className="english">QUALIFICATIONS</span>
@@ -197,7 +197,7 @@ function About() {
             </a>
           </li>
         </ul>
-      </section>
+      </section> */}
 
       <img
         className="to-top"

@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'ThingsWorld 致力于行业领先的解决方案',
+  title: '极推科技',
   author: 'Tails Azimuth',
   headerTitle: 'TailwindBlog',
   description: 'A blog created with Next.js and Tailwind.css',
