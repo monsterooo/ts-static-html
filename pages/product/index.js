@@ -164,7 +164,7 @@ function About() {
           <img alt="股东logo-0722" height="132" src="/static/img/about/gudong.png" width="1160" />
         </div>
       </section> */}
-      <section className="P40 container" id="partner">
+      {/* <section className="P40 container" id="partner">
         <div className="block-title">
           <span className="chinese">合作伙伴</span>
           <span className="english">PARTNER</span>
@@ -177,7 +177,7 @@ function About() {
             width="1160"
           />
         </div>
-      </section>
+      </section> */}
       {/* <section className="P40 certificate PB90 container" id="certificate">
         <div className="block-title">
           <span className="chinese">资质证书</span>
